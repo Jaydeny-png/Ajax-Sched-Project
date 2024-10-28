@@ -1,28 +1,23 @@
-const filteredArray = array.filter(element => {
-    return condition;
-  });
-  
-  const scheduleData = [
-    {
-      "name": "AP Computer Science",
-      "room": "Room 203",
-      "teacher": "Mr. Kilgore",
-      "days": ["A", "C", "E", "G"]
-    },
-    {
-      "name": "English Literature",
-      "room": "Room 110",
-      "teacher": "Ms. Thompson",
-      "days": ["B", "D", "F"]
-    }
-  ];
-  
-  // Function to filter classes for a specific day
-  function getClassesForDay(day) {
-    return scheduleData.filter(classInfo => classInfo.days.includes(day));
-  }
-  
-  // Example usage: Get classes for 'A' day
-  const aDayClasses = getClassesForDay('A');
-  console.log(aDayClasses);
-  
+$(document).ready(function () {
+  const btn = $("#submitDay");
+
+  btn.on('click', function () {
+
+
+    const selectedDay = $("#dayInput");
+
+    $.ajax({
+      url: `https://jsonkeeper.com/b/UAH7`,
+      method: 'GET',
+      success: function (data) {
+        const schedule = data.schedule
+        console.log(schedule);
+
+      },
+      error: function () {
+        alert("Theres a connection error");
+      }
+    });
+
+  })
+})
