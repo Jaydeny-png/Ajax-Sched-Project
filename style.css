@@ -1,0 +1,46 @@
+body {
+    background-color: #acacac;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+#submitDay {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 100%;
+}
+.schedule {
+    margin-top: 30px;
+}
+.schedule h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.table {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+tbody td {
+    text-align: center;
+}

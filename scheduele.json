@@ -1,0 +1,102 @@
+{
+  "schedule": [
+    {
+      "days": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F"
+      ],
+      "room": "A234",
+      "type": "FY",
+      "class": "AP Computer Science A",
+      "period": 1,
+      "teacher": "Christine Rehwinkel"
+    },
+    {
+      "days": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "F"
+      ],
+      "room": "B111",
+      "type": "FY",
+      "class": "Honors NJIT IS219 Advanced Website Development WDP",
+      "period": 2,
+      "teacher": "Gregory Kilgore"
+    },
+    {
+      "days": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "room": "E117",
+      "type": "S1",
+      "class": "BCC ENG121 The Writing Process",
+      "period": 3,
+      "teacher": "Grace Reganato"
+    },
+    {
+      "days": [
+        "B",
+        "C",
+        "D",
+        "F",
+        "G"
+      ],
+      "room": "GYM",
+      "type": "FY",
+      "class": "Physical Ed 12",
+      "period": 4,
+      "teacher": "Maggie Preston"
+    },
+    {
+      "days": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "G"
+      ],
+      "room": "A234",
+      "type": "FY",
+      "class": "Honors Cybersecurity & Computer Programming",
+      "period": 5,
+      "teacher": "Christine Rehwinkel"
+    },
+    {
+      "days": [
+        "A",
+        "C",
+        "D",
+        "F",
+        "G"
+      ],
+      "room": "C103",
+      "type": "Q1, Q2, Q3, Q4",
+      "class": "Popular Music 1 & 2",
+      "period": 6,
+      "teacher": "Michael Ippolito"
+    },
+    {
+      "days": [
+        "B",
+        "C",
+        "E",
+        "F",
+        "G"
+      ],
+      "room": "A213",
+      "type": "FY",
+      "class": "Statistics",
+      "period": 7,
+      "teacher": "Juska/Crincoli"
+    }
+  ]
+}
